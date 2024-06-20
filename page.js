@@ -144,11 +144,13 @@
             })
             .catch(error => {
                 console.error('Error:', error);
-                document.querySelectorAll('.price').forEach(el => {
-                    el.classList.remove('loading');
-                    el.classList.add('error');
-                });
                 document.querySelectorAll('.old-price').forEach(el => {
+                    el.innerText = `<del>$50</del>`;
+                    el.classList.remove('loading');
+                });
+                // Убираем класс loading и добавляем класс error для всех элементов с классом .price
+                document.querySelectorAll('.price').forEach(el => {
+                    el.innerText = `<del>$9.9</del>`;
                     el.classList.remove('loading');
                     el.classList.add('error');
                 });
