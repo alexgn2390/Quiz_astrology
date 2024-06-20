@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGVXYPC2G4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NGVXYPC2G4');
+    </script>
+
+    <!-- Hotjar Tracking Code for Site 5028611 -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:5028611,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '484630977366524');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=484630977366524&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+<body>
+
+<div class="start-page pb-5" id="start-page">
+    <div class="start-page-main active">
+        <div class="start-page-main-text ">
+            <h1 class="start-page-title">Discover your love path with AstroLove!</h1>
+            <p class="start-page-description">Ready to embark on your romantic journey? Take our quick quiz and
+                unlock insights into your love future in just 1 minute!</p>
+            <div class="start-custom-button mb-3 ">
+                <button type="button" id="start" class="start-page-button z-2">START</button>
+            </div>
+        </div>
+        <div class="">
+            <img class="start-page-img img-fluid z-1" src="images/img_main.png">
+        </div>
+
+    </div>
+</div>
+
+
+<div class="quiz-page " id="quiz-container" style="display: none;">
+    <div class="progress-container-block" id="progressContainerBlock">
+        <div class="question-count">
+            <span id="currentPage" class="current-page">01</span>/03
+        </div>
+        <div class="progress-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+
+<!--    <div id="question1" class=" question">-->
+<!--        <h2 class="question-title">Choose your gender:</h2>-->
+<!--        <form id="genderForm">-->
+<!--            <label class="custom-radio">-->
+<!--                <input type="radio" name="gender" class="question-label">-->
+<!--                <span class="radio-btn"></span>-->
+<!--                Male-->
+<!--            </label>-->
+<!--            <label class="custom-radio">-->
+<!--                <input type="radio" name="gender" class="question-label">-->
+<!--                <span class="radio-btn"></span>-->
+<!--                Female-->
+<!--            </label>-->
+<!--            <label class="custom-radio">-->
+<!--                <input type="radio" name="gender" class="question-label">-->
+<!--                <span class="radio-btn"></span>-->
+<!--                Prefer not to say-->
+<!--            </label>-->
+<!--        </form>-->
+
+<!--        <div class="buttons">-->
+
+<!--            <button class="next-button" id="next-btn-1">Next</button>-->
+<!--        </div>-->
+
+
+<!--    </div>-->
+
+
+<!--    <div class="progress-container-block ">-->
+<!--        <div class="question-count"><span>01</span>/08</div>-->
+<!--        <div class="progress-container ">-->
+<!--            <div id="progressBar" class="progress-bar" style="width: 50%;"></div> &lt;!&ndash; Пример ширины 50% &ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    <div id="question1" class="quiz-page question">-->
+<!--        <h2 class="question-title">Choose your gender:</h2>-->
+<!--        <form>-->
+<!--            <label class="custom-radio">-->
+<!--                <input type="radio" name="gender" value="Male" class="question-label">-->
+<!--                <span class="radio-btn"></span>-->
+<!--                Male-->
+<!--            </label>-->
+<!--            <label class="custom-radio">-->
+<!--                <input type="radio" name="gender" value="Female" class="question-label">-->
+<!--                <span class="radio-btn"></span>-->
+<!--                Female-->
+<!--            </label>-->
+<!--            <label class="custom-radio">-->
+<!--                <input type="radio" name="gender" value="Prefer not to say" class="question-label">-->
+<!--                <span class="radio-btn"></span>-->
+<!--                Prefer not to say-->
+<!--            </label>-->
+<!--        </form>-->
+<!--        <div class="buttons">-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage1">Next</button>-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    <div id="question2" class="quiz-page question">-->
+<!--        <h2 class="question-title">When's your birthday?</h2>-->
+<!--        <form>-->
+<!--            <input type="date" name="answer1" value="Синий" class="question-label">-->
+
+<!--        </form>-->
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage2">Next</button>-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="question3" class="quiz-page question">-->
+<!--        <h2 class="question-title">Do you know your birth time?</h2>-->
+<!--        <form>-->
+<!--            <input type="text" name="answer1" value="Синий" class="question-label">-->
+<!--        </form>-->
+
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage3">Next</button>-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="question4" class="quiz-page question">-->
+<!--        <h2 class="question-title">Where were you born?</h2>-->
+<!--        <form>-->
+<!--            <input type="text" name="answer1" value="Синий" class="question-label">-->
+<!--        </form>-->
+<!--        <p>-->
+<!--            Knowing this boosts prediction accuracy.-->
+
+<!--        </p>-->
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage4">Next</button>-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="question5" class="quiz-page question">-->
+<!--        <h2 class="question-title">What's your current relationship status?</h2>-->
+<!--        <form>-->
+<!--            <input type="radio" name="answer1" value="Синий" class="question-label"> Single<br>&ndash;&gt;-->
+<!--            <input type="radio" name="answer1" value="Зеленый" class="question-label"> In a relationship<br>-->
+<!--            <input type="radio" name="answer1" value="Красный" class="question-label"> Married<br>-->
+<!--            <input type="radio" name="answer1" value="Красный" class="question-label"> Its complicated-->
+<!--            <br>-->
+<!--        </form>-->
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage5">Next</button>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="question6" class="quiz-page question">-->
+<!--        <h2 class="question-title">What do you hope for in love?</h2>-->
+<!--        <p>We want to understand you better to give you the best advice.</p>-->
+<!--        <form class="flex ">-->
+<!--            <div class="d-flex ">-->
+<!--                <div>-->
+<!--                    <input type="radio" name="answer1" value="Синий" class="question-label"> <span>Make my current relationship happier</span>-->
+<!--                    <br>-->
+<!--                    <input type="radio" name="answer1" value="Зеленый" class="question-label"> Make my marriage stronger-->
+<!--                    <br>-->
+<!--                    <input type="radio" name="answer1" value="Красный" class="question-label"> All of these-->
+<!--                    <br>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <input type="radio" name="answer1" value="Красный" class="question-label">Fix any problems in my-->
+<!--                    love life-->
+<!--                    <br>-->
+<!--                    <input type="radio" name="answer1" value="Красный" class="question-label"> See if were a good match-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </form>-->
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage6">Next</button>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    <div id="question7" class="quiz-page question">-->
+<!--        <h2 class="question-title">Analyzing your love needs...</h2>-->
+<!--        <div>-->
+<!--            <div>-->
+<!--               -->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <p>-->
+<!--            Please hold while we craft your personalized love guidance plan, drawing from your unique astrological-->
+<!--            profile and insights from successful AstroLove users.-->
+<!--        </p>-->
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage7">Next</button>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="question8" class="quiz-page question">-->
+<!--        <h2 class="question-title">All set!</h2>-->
+<!--        <p>Enter your email to unlock your perfect partner potential and gain deeper self-understanding with Serene.</p>-->
+<!--        <form>-->
+<!--            <input type="text" name="answer1" value="Синий" class="question-label" placeholder="Email Address">-->
+<!--        </form>-->
+<!--        <p>AstroLove respects your privacy. Your data stays safe with us.</p>-->
+
+<!--        <div>-->
+<!--            <img class="back-button" src="https://static.tildacdn.com/tild3064-3839-4433-b761-316461643938/Arrow_1.svg" alt="arrow">-->
+<!--            <button class="next-button" id="nextPage8">Finish</button>-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
