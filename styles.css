@@ -601,6 +601,10 @@ body {
         font-size: 14px;
 
     }
+    .progress-text-desc {
+        width: 73%;
+text-align: center;
+    }
 
     .custom-radio {
         font-size: 31px;

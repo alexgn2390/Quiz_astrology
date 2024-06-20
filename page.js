@@ -86,6 +86,7 @@
     const button1 = document.getElementById('button1')
     const button2 = document.getElementById('button2')
     const button3 = document.getElementById('button3')
+    const button5 = document.getElementById('button5')
 
     button1.onclick = async () => { await validateAndSubmitForm(); };
     button1.ontouchstart = async () => { await validateAndSubmitForm(); };
@@ -95,6 +96,9 @@
 
     button3.onclick = async () => { await validateAndSubmitForm(); };
     button3.ontouchstart = async () => { await validateAndSubmitForm(); };
+
+    button5.onclick = async () => { await validateAndSubmitForm(); };
+    button5.ontouchstart = async () => { await validateAndSubmitForm(); };
 
 
     function startCountdown(duration, display) {
