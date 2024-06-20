@@ -169,6 +169,7 @@ max-width: 936px;
     background-repeat: no-repeat;
     background-size: cover;
     /*padding-bottom: 120px;*/
+    overflow: hidden;
 }
 
 .block-three {
@@ -318,6 +319,7 @@ max-width: 936px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 .start-page-main-text {
     width: 51%;
